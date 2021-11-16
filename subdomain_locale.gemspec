@@ -12,6 +12,6 @@ Gem::Specification.new do |spec|
   spec.files         = File.read("Manifest.txt").split("\n")
   spec.test_files    = spec.files.grep(%r{^test/})
 
-  spec.add_dependency "i18n", "~> 0.7"
-  spec.add_dependency "railties", ">= 5.0", "< 6.0"
+  spec.add_dependency "i18n", "~> 1.6"
+  spec.add_dependency "railties", ">= 5.0"
 end
