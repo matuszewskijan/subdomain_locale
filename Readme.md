@@ -81,7 +81,7 @@ end
 
 ## Testing
 
-This gem is tested against Rails 5.0 and 5.1.
+This gem is tested against Rails 6.1.
 
 ```
 gem install isolate
